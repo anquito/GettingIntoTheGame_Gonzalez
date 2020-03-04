@@ -820,6 +820,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3977302867359720593}
   - component: {fileID: 3977302867366710429}
+  - component: {fileID: 7616988128286013975}
+  - component: {fileID: -8331083843119739344}
   m_Layer: 0
   m_Name: Animal_Stag_02
   m_TagString: Untagged
@@ -870,3 +872,28 @@ Animator:
   m_HasTransformHierarchy: 0
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7616988128286013975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3977302867359491611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 082c0f145d481704ab00df34e14cefdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8331083843119739344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3977302867359491611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3755f4c26c122894d9bcf3c47046cbb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
